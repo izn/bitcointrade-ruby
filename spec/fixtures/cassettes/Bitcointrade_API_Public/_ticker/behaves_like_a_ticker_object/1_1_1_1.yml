@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bitcointrade.com.br/v3/public/BRLBTC/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '181'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 27 May 2020 12:12:57 GMT
+      X-Amzn-Requestid:
+      - 6852f322-8f25-4154-9482-2a690daa2209
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Response-Time:
+      - 0.549ms
+      X-Amzn-Remapped-Content-Length:
+      - '181'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Amz-Apigw-Id:
+      - NMLjhHDxoAMFpkw=
+      Apicache-Version:
+      - 1.2.0
+      Etag:
+      - W/"b5-lX/UuUvLe+x+HhIsLgRRqlRFBWI"
+      X-Amzn-Trace-Id:
+      - Root=1-5ece5949-3f5d3e28ff654238f3d7a8b0
+      Apicache-Store:
+      - memory
+      X-Amzn-Remapped-Date:
+      - Wed, 27 May 2020 12:12:57 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 bf4027e8a8addc4ea0d1474c8398bfd1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - GRU1-C1
+      X-Amz-Cf-Id:
+      - O4bDBaBUokSu6ynZ_huX4QaKUtYIAg_CfNp0qU_ReF1gvFjmV7tBkw==
+    body:
+      encoding: UTF-8
+      string: '{"code":null,"message":null,"data":{"buy":49050.28,"high":49499,"last":49300,"low":47501,"sell":49300,"trades_quantity":1849,"volume":76.17787926,"date":"2020-05-27T12:12:45.864Z"}}'
+    http_version: null
+  recorded_at: Wed, 27 May 2020 12:12:57 GMT
+recorded_with: VCR 5.1.0

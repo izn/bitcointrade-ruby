@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bitcointrade.com.br/v3/public/BRLETH/orders?limit=50
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '3409'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 27 May 2020 12:12:58 GMT
+      X-Amzn-Requestid:
+      - a000c048-64d6-4f3d-9907-e6aef4272f51
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Response-Time:
+      - 8.794ms
+      X-Amzn-Remapped-Content-Length:
+      - '3409'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      X-Amz-Apigw-Id:
+      - NMLjoEJooAMFTZw=
+      Cache-Control:
+      - max-age=15
+      Etag:
+      - W/"d51-cK43Y40kAjuTfYordPw3yBSoOiQ"
+      X-Amzn-Trace-Id:
+      - Root=1-5ece594a-426dfaa57e06887b6636b9ce
+      X-Amzn-Remapped-Date:
+      - Wed, 27 May 2020 12:12:58 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 72edd10a8060c70d07d0df3ad81cc712.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - GRU1-C1
+      X-Amz-Cf-Id:
+      - 1Ddlbj8FJX5aDWeLahPtTelIkY5oYbsrXTao7TMcbMMABSDM9PIgMA==
+    body:
+      encoding: UTF-8
+      string: '{"code":null,"message":null,"data":{"bids":[{"unit_price":1105,"code":"pKsGItVIz","stop_limit_price":null,"amount":9.38323077},{"unit_price":1105,"code":"8Sue5qM2n","stop_limit_price":null,"amount":9.04977376},{"unit_price":1105,"code":"C3bgTJB22","stop_limit_price":null,"amount":3.45682353},{"unit_price":1104.82,"code":"GgWEvtJmX","stop_limit_price":null,"amount":9.05124817},{"unit_price":1104.01,"code":"IZ6cZDSCN","stop_limit_price":null,"amount":6.40469743},{"unit_price":1104,"code":"0iTOpUtiA","stop_limit_price":null,"amount":1},{"unit_price":1103.64,"code":"3NMph2IUi","stop_limit_price":null,"amount":0.60363887},{"unit_price":1103.6,"code":"8v76ZcCjC","stop_limit_price":null,"amount":1.49148243},{"unit_price":1103.5,"code":"ZH7-CoQsbe","stop_limit_price":null,"amount":0.08193023},{"unit_price":1103,"code":"p5BvzPYgFH","stop_limit_price":null,"amount":1.81323663},{"unit_price":1103,"code":"L9-5fe0-2B","stop_limit_price":null,"amount":0.72169538},{"unit_price":1100.01,"code":"GxMgc_OI5U","stop_limit_price":null,"amount":6.36357852},{"unit_price":1100,"code":"J2vQrVF2w","stop_limit_price":null,"amount":4.76504546},{"unit_price":1095.92,"code":"f079KHeV6","stop_limit_price":null,"amount":0.08235091},{"unit_price":1095.53,"code":"yV9zrDdg8","stop_limit_price":null,"amount":8.71521547},{"unit_price":1095,"code":"4llk8mKiue","stop_limit_price":null,"amount":4.56621005},{"unit_price":1093,"code":"jheE9SJcn","stop_limit_price":null,"amount":0.09149131},{"unit_price":1091.68,"code":"jJ3NXN2X0","stop_limit_price":null,"amount":1.2289682},{"unit_price":1090,"code":"-CJrlFelz","stop_limit_price":null,"amount":0.4587156},{"unit_price":1082.5,"code":"rC4E6MaXA","stop_limit_price":null,"amount":0.92921017}],"asks":[{"unit_price":1135,"code":"jrvJpYieS","stop_limit_price":null,"amount":0.22714938},{"unit_price":1137,"code":"NTYPovk0x","stop_limit_price":null,"amount":13.04872401},{"unit_price":1137.92,"code":"ZbUI8cWp6","stop_limit_price":null,"amount":0.99330825},{"unit_price":1137.94,"code":"EFn0cDD1T","stop_limit_price":null,"amount":0.80172371},{"unit_price":1137.96,"code":"dMs-CztMY","stop_limit_price":null,"amount":0.25143318},{"unit_price":1137.98,"code":"sdX0oRNlN","stop_limit_price":null,"amount":0.12590183},{"unit_price":1138.7,"code":"EnP6SRl4V","stop_limit_price":null,"amount":0.08235},{"unit_price":1140,"code":"Q8N2eyt-E","stop_limit_price":null,"amount":5.00944007},{"unit_price":1145,"code":"Ac-l3kgAGz","stop_limit_price":null,"amount":0.02216667},{"unit_price":1145.86,"code":"hErwQOtnP","stop_limit_price":null,"amount":0.08194},{"unit_price":1148.17,"code":"OFQxHaFXz","stop_limit_price":null,"amount":0.29691841},{"unit_price":1148.2,"code":"8qc-I1w5a","stop_limit_price":null,"amount":3.60680832},{"unit_price":1150,"code":"WutGuKpRj","stop_limit_price":null,"amount":0.23},{"unit_price":1150,"code":"c1Ux-aXJw","stop_limit_price":null,"amount":0.1},{"unit_price":1150,"code":"-6cAxJ2cZ","stop_limit_price":null,"amount":1.75174622},{"unit_price":1151.43,"code":"sEP4R2fD-","stop_limit_price":null,"amount":0.08194},{"unit_price":1151.92,"code":"v_Tyg-S-v","stop_limit_price":null,"amount":0.44056075},{"unit_price":1153.01,"code":"fYP2evv8R","stop_limit_price":null,"amount":0.0903983},{"unit_price":1155.55,"code":"GSTpJVnkf","stop_limit_price":null,"amount":4.35175458},{"unit_price":1160.18,"code":"N702N2B9m","stop_limit_price":null,"amount":0.08194}]}}'
+    http_version: null
+  recorded_at: Wed, 27 May 2020 12:12:58 GMT
+recorded_with: VCR 5.1.0

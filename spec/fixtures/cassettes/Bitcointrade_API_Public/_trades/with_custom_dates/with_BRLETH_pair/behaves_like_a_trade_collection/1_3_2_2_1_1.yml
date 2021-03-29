@@ -21,42 +21,42 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '3169'
+      - '3212'
       Connection:
       - keep-alive
       Date:
-      - Wed, 27 May 2020 12:13:00 GMT
+      - Mon, 29 Mar 2021 16:11:19 GMT
       X-Amzn-Requestid:
-      - 2a5e4ee6-10df-4fe6-a434-f5e22ec05f32
+      - df1008d7-04b5-4e23-8a5d-cec58b758d2d
       Access-Control-Allow-Origin:
       - "*"
       X-Response-Time:
-      - 7.700ms
+      - 12.073ms
       X-Amzn-Remapped-Content-Length:
-      - '3169'
+      - '3212'
       X-Amzn-Remapped-Connection:
       - keep-alive
       X-Amz-Apigw-Id:
-      - NMLj5EcUoAMFVDg=
+      - c9RWGEU5oAMFUng=
       Cache-Control:
       - max-age=15
       Etag:
-      - W/"c61-2E6ZoUmlrTjclepHx1z9eRaQBrA"
+      - W/"c8c-GEGyhG6YLocvW27mmblv7KsqegI"
       X-Amzn-Trace-Id:
-      - Root=1-5ece594c-4b4c0d00fb1d72723fc5e544
+      - Root=1-6061fc26-0b70830f326986492491e209
       X-Amzn-Remapped-Date:
-      - Wed, 27 May 2020 12:13:00 GMT
+      - Mon, 29 Mar 2021 16:11:19 GMT
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 5ce364e30dcfb61805012dae39f02ed5.cloudfront.net (CloudFront)
+      - 1.1 c7cc09e0d87c3f80f645f8b78d3512e1.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - GRU1-C1
+      - GIG51-C2
       X-Amz-Cf-Id:
-      - fpAeG1yCtjk5UT4KypsOWInjllQoAdkIb0aTGpyYxxs1Bg0HjCTtpw==
+      - OcbUT9lJ1uU_eAQfpz3jNRbN2yDlEhZwKxkA7w53MBJUYQpBK9xuTw==
     body:
       encoding: UTF-8
-      string: '{"code":null,"message":null,"data":{"pagination":{"current_page":1,"page_size":20,"registers_count":233266,"total_pages":11664},"trades":[{"type":"sell","amount":0.16743367,"unit_price":1103.65,"active_order_code":"6R1sez2981S","passive_order_code":"NabfHrLY7","date":"2020-05-27T12:01:01.867Z"},{"type":"buy","amount":5.01349164,"unit_price":1137,"active_order_code":"On8BvVGCJ","passive_order_code":"NTYPovk0x","date":"2020-05-27T12:00:59.700Z"},{"type":"buy","amount":10,"unit_price":1136.99,"active_order_code":"On8BvVGCJ","passive_order_code":"57PU6XFhx","date":"2020-05-27T12:00:59.693Z"},{"type":"buy","amount":1.72676816,"unit_price":1135,"active_order_code":"On8BvVGCJ","passive_order_code":"pedfF7SNx","date":"2020-05-27T12:00:59.693Z"},{"type":"buy","amount":0.3148179,"unit_price":1135,"active_order_code":"On8BvVGCJ","passive_order_code":"eVV3n97hZ","date":"2020-05-27T12:00:59.687Z"},{"type":"buy","amount":0.08195,"unit_price":1133.7,"active_order_code":"On8BvVGCJ","passive_order_code":"3RxY6LwLW","date":"2020-05-27T12:00:59.680Z"},{"type":"buy","amount":0.08043022,"unit_price":1131.45,"active_order_code":"On8BvVGCJ","passive_order_code":"3v1h6x3bY","date":"2020-05-27T12:00:59.680Z"},{"type":"buy","amount":0.9975,"unit_price":1130.55,"active_order_code":"On8BvVGCJ","passive_order_code":"HbR5J2_iW","date":"2020-05-27T12:00:59.670Z"},{"type":"buy","amount":2.30898412,"unit_price":1130,"active_order_code":"On8BvVGCJ","passive_order_code":"tLr3q9A9j","date":"2020-05-27T12:00:59.663Z"},{"type":"buy","amount":2.39487852,"unit_price":1130,"active_order_code":"On8BvVGCJ","passive_order_code":"5w5ZvA_XA","date":"2020-05-27T12:00:59.657Z"},{"type":"buy","amount":0.35745118,"unit_price":1129.7,"active_order_code":"On8BvVGCJ","passive_order_code":"kMsOoH1oq","date":"2020-05-27T12:00:59.647Z"},{"type":"buy","amount":7.23948251,"unit_price":1129.62,"active_order_code":"On8BvVGCJ","passive_order_code":"nEq_mOrP1","date":"2020-05-27T12:00:59.647Z"},{"type":"buy","amount":2,"unit_price":1122.93,"active_order_code":"On8BvVGCJ","passive_order_code":"O-UEjIibD","date":"2020-05-27T12:00:59.640Z"},{"type":"buy","amount":0.45631291,"unit_price":1119,"active_order_code":"On8BvVGCJ","passive_order_code":"Zwze-S1Pq","date":"2020-05-27T12:00:59.640Z"},{"type":"buy","amount":0.05130122,"unit_price":1116.99,"active_order_code":"On8BvVGCJ","passive_order_code":"ke9I5UYw_","date":"2020-05-27T12:00:59.630Z"},{"type":"buy","amount":4,"unit_price":1115.87,"active_order_code":"On8BvVGCJ","passive_order_code":"8LivAy2Tw","date":"2020-05-27T12:00:59.630Z"},{"type":"buy","amount":0.0164011,"unit_price":1115,"active_order_code":"On8BvVGCJ","passive_order_code":"vChJ7VQDr","date":"2020-05-27T12:00:59.623Z"},{"type":"sell","amount":0.06,"unit_price":1103.65,"active_order_code":"e3YpP0N2I","passive_order_code":"NabfHrLY7","date":"2020-05-27T11:57:41.733Z"},{"type":"buy","amount":0.036,"unit_price":1115,"active_order_code":"Pw8pNA6M8","passive_order_code":"vChJ7VQDr","date":"2020-05-27T11:38:48.970Z"},{"type":"buy","amount":0.03577896,"unit_price":1114,"active_order_code":"Pw8pNA6M8","passive_order_code":"1j4Zova1c","date":"2020-05-27T11:38:48.963Z"}]}}'
-    http_version: null
-  recorded_at: Wed, 27 May 2020 12:13:00 GMT
+      string: '{"code":null,"message":null,"data":{"pagination":{"current_page":1,"page_size":20,"registers_count":524396,"total_pages":26220},"trades":[{"type":"sell","amount":0.01571052,"unit_price":10262.96,"active_order_code":"KHvhNZ5Sj","passive_order_code":"bOqC6Wr38","date":"2021-03-29T16:08:17.750Z"},{"type":"buy","amount":0.12045608,"unit_price":10349,"active_order_code":"pqR6u0rBh","passive_order_code":"M_4QnAbSO","date":"2021-03-29T16:07:22.640Z"},{"type":"sell","amount":0.00201603,"unit_price":10229.62,"active_order_code":"pDee79POy","passive_order_code":"Zb5qDQnbf","date":"2021-03-29T16:05:02.383Z"},{"type":"sell","amount":0.03212548,"unit_price":10225.82,"active_order_code":"4qMh-mFud","passive_order_code":"hFqL_EDm22","date":"2021-03-29T16:02:42.333Z"},{"type":"buy","amount":2.03384251,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"fYMlj78ui_","date":"2021-03-29T16:02:05.200Z"},{"type":"buy","amount":0.00249127,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"h5JVU2ROu","date":"2021-03-29T16:02:05.187Z"},{"type":"buy","amount":0.0503788,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"hMpc-TIkUX","date":"2021-03-29T16:02:05.183Z"},{"type":"buy","amount":1.97420636,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"lt_Qfw1DH","date":"2021-03-29T16:02:05.177Z"},{"type":"buy","amount":0.07418027,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"W80V-TGA7N","date":"2021-03-29T16:02:05.173Z"},{"type":"buy","amount":0.26476643,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"-Kcsz6mgU","date":"2021-03-29T16:02:05.167Z"},{"type":"buy","amount":1.08299307,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"MBVURMBL9","date":"2021-03-29T16:02:05.160Z"},{"type":"buy","amount":0.005015,"unit_price":10350,"active_order_code":"LKqsZdGNn","passive_order_code":"OWpvi8G3c","date":"2021-03-29T16:02:05.157Z"},{"type":"buy","amount":1.02720097,"unit_price":10349.95,"active_order_code":"LKqsZdGNn","passive_order_code":"35CZDUYK1","date":"2021-03-29T16:02:05.150Z"},{"type":"buy","amount":0.05062424,"unit_price":10345,"active_order_code":"LKqsZdGNn","passive_order_code":"vUxWDBJM-","date":"2021-03-29T16:02:05.147Z"},{"type":"buy","amount":0.0374238,"unit_price":10340,"active_order_code":"LKqsZdGNn","passive_order_code":"0wiLBC_yS","date":"2021-03-29T16:02:05.140Z"},{"type":"buy","amount":0.01940535,"unit_price":10340,"active_order_code":"LKqsZdGNn","passive_order_code":"6E5J9THof","date":"2021-03-29T16:02:05.137Z"},{"type":"buy","amount":0.0469872,"unit_price":10330.01,"active_order_code":"LKqsZdGNn","passive_order_code":"vJoa89ZjE","date":"2021-03-29T16:02:05.130Z"},{"type":"buy","amount":1,"unit_price":10329.99,"active_order_code":"LKqsZdGNn","passive_order_code":"qvwPC5B34","date":"2021-03-29T16:02:05.127Z"},{"type":"buy","amount":0.02366254,"unit_price":10320,"active_order_code":"LKqsZdGNn","passive_order_code":"BiJ7NKISQ","date":"2021-03-29T16:02:05.120Z"},{"type":"buy","amount":0.79531322,"unit_price":10300,"active_order_code":"LKqsZdGNn","passive_order_code":"lcFgV0Ocl5","date":"2021-03-29T16:02:05.117Z"}]}}'
+    http_version:
+  recorded_at: Mon, 29 Mar 2021 16:11:19 GMT
 recorded_with: VCR 5.1.0

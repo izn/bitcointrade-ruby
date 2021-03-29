@@ -21,44 +21,42 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '181'
+      - '186'
       Connection:
       - keep-alive
       Date:
-      - Wed, 27 May 2020 12:12:57 GMT
+      - Mon, 29 Mar 2021 16:11:14 GMT
       X-Amzn-Requestid:
-      - 6852f322-8f25-4154-9482-2a690daa2209
+      - 4513acd2-d02d-40af-a0da-c7d38d0a8332
       Access-Control-Allow-Origin:
       - "*"
       X-Response-Time:
-      - 0.549ms
+      - 6.399ms
       X-Amzn-Remapped-Content-Length:
-      - '181'
+      - '186'
       X-Amzn-Remapped-Connection:
       - keep-alive
       X-Amz-Apigw-Id:
-      - NMLjhHDxoAMFpkw=
-      Apicache-Version:
-      - 1.2.0
+      - c9RVbH4hIAMFeTg=
+      Cache-Control:
+      - max-age=15
       Etag:
-      - W/"b5-lX/UuUvLe+x+HhIsLgRRqlRFBWI"
+      - W/"ba-CbvXnDPFTBDUokMLizNZrMXnT4w"
       X-Amzn-Trace-Id:
-      - Root=1-5ece5949-3f5d3e28ff654238f3d7a8b0
-      Apicache-Store:
-      - memory
+      - Root=1-6061fc22-0ae9d0004856e8c657228049
       X-Amzn-Remapped-Date:
-      - Wed, 27 May 2020 12:12:57 GMT
+      - Mon, 29 Mar 2021 16:11:14 GMT
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 bf4027e8a8addc4ea0d1474c8398bfd1.cloudfront.net (CloudFront)
+      - 1.1 eb0748e1a1029699052c373701cab0cc.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - GRU1-C1
+      - GIG51-C2
       X-Amz-Cf-Id:
-      - O4bDBaBUokSu6ynZ_huX4QaKUtYIAg_CfNp0qU_ReF1gvFjmV7tBkw==
+      - nToxg5yCyNUu-PBhmCPZPpLHfJp9luQbObrXKuNd3IYGaLf8BbTxFw==
     body:
       encoding: UTF-8
-      string: '{"code":null,"message":null,"data":{"buy":49050.28,"high":49499,"last":49300,"low":47501,"sell":49300,"trades_quantity":1849,"volume":76.17787926,"date":"2020-05-27T12:12:45.864Z"}}'
-    http_version: null
-  recorded_at: Wed, 27 May 2020 12:12:57 GMT
+      string: '{"code":null,"message":null,"data":{"buy":331550.01,"high":337500,"last":332000,"low":315000,"sell":332000,"trades_quantity":4135,"volume":46.20259523,"date":"2021-03-29T16:11:14.623Z"}}'
+    http_version:
+  recorded_at: Mon, 29 Mar 2021 16:11:14 GMT
 recorded_with: VCR 5.1.0
